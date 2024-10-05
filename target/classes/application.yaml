@@ -1,0 +1,10 @@
+spring:
+   datasource:
+      username: bookstore
+      password: bookstore
+      url: jdbc:mysql://localhost:3307/bookstore
+      
+   jpa:
+      hibernate:
+         ddl-auto: create
+      show-sql: true
